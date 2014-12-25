@@ -16,12 +16,12 @@ endif
 let g:colors_name = "darkmate"
 
 " Line and Columns
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline
-set cursorline 
+"au WinLeave * set nocursorline nocursorcolumn
+"au WinEnter * set cursorline
+"set cursorline 
 
 " Font
-set guifont=Monaco:h12
+"set guifont=Monaco:h12
 
 " Main Colors
 hi Normal             guibg=#232323 ctermbg=235   guifg=#FFFFFF ctermfg=15  gui=none
